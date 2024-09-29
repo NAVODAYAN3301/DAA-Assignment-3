@@ -36,6 +36,6 @@ def merge_sort(arr):
             k += 1
 
 # Example usage
-arr = [12, 11, 13, 5, 6, 7]
+arr = [2, 1, 3, 5, 6, 7]
 merge_sort(arr)
 print("Sorted array is:", arr)
