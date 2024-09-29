@@ -13,7 +13,7 @@ def min_coins(coins, amount):
 
 # Example usage
 if __name__ == "__main__":
-    coins = [1, 2, 5]  # Coin denominations
-    amount = 11        # Total amount
+    coins = [1, 2, 4]  # Coin denominations
+    amount = 12        # Total amount
     result = min_coins(coins, amount)
     print("Minimum number of coins required:", result)
