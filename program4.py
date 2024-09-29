@@ -1,6 +1,5 @@
 import sys  
 
-
 def min_key(key, mst_set, V):
     
     min_val = sys.maxsize
@@ -47,11 +46,11 @@ def prim_mst(graph):
 # Example usage
 if __name__ == "__main__":
   
-    graph = [[0, 2, 0, 6, 0],
-             [2, 0, 3, 8, 5],
-             [0, 3, 0, 0, 7],
-             [6, 8, 0, 0, 9],
-             [0, 5, 7, 9, 0]]
+    graph = [[0, 3, 0, 0, 7],
+             [6, 8, 0, 0, 9]
+             [0, 2, 0, 6, 0],
+             [0, 5, 7, 9, 0],
+             [2, 0, 3, 8, 5]]
 
     
     prim_mst(graph)
