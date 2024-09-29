@@ -17,8 +17,8 @@ def maximum_units(boxTypes, truckSize):
 # Example usage
 if __name__ == "__main__":
     
-    boxTypes = [[1, 3], [2, 2], [3, 1]]  
-    truckSize = 4  
+    boxTypes = [[2, 3], [4, 1],[1, 4] ,[3, 2]]  
+    truckSize =  5 
 
     result = maximum_units(boxTypes, truckSize)
     print("Maximum units that can be carried =", result)
