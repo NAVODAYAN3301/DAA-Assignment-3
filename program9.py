@@ -17,6 +17,6 @@ def longest_common_subsequence(text1, text2):
 # Example usage
 if __name__ == "__main__":
     text1 = "abcde"
-    text2 = "ace"    
+    text2 = "acd"    
     result = longest_common_subsequence(text1, text2)
     print("Length of Longest Common Subsequence:", result)
