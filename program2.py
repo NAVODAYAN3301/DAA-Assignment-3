@@ -21,7 +21,7 @@ def find_max_min(arr, low, high):
     return max(max1, max2), min(min1, min2)
 
 # Example usage
-arr = [100, 3, 200, 1, 50, 90, 2]
+arr = [90, 300, 120, 25, 1, 100, 200]
 max_val, min_val = find_max_min(arr, 0, len(arr) - 1)
 print("Maximum element is:", max_val)
 print("Minimum element is:", min_val)
