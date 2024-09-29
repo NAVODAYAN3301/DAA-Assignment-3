@@ -24,6 +24,6 @@ def lemonade_change(bills):
 
 # Example usage
 if __name__ == "__main__":
-    bills = [5, 5, 10, 10, 20]
+    bills = [5, 5, 5, 10, 20]
     result = lemonade_change(bills)
     print("Can provide correct change:", result)
